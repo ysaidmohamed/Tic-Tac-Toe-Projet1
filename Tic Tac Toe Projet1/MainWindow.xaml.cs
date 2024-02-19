@@ -78,6 +78,7 @@ namespace Tic_Tac_Toe_Projet1
                         unBouton.IsEnabled = true;
                         unBouton.Content = "";
                     }
+                    Tour.Text = joueur2.NomJoueur;
 
                 }
             }
@@ -94,11 +95,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case1.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case1.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case1.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -111,11 +114,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case2.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case2.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case2.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -128,11 +133,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case3.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case3.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case3.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -145,11 +152,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case4.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case4.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case4.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -162,11 +171,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case5.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case5.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case5.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -179,11 +190,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case6.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case6.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case6.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -196,11 +209,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case7.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case7.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case7.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -213,11 +228,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case8.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case8.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case8.IsEnabled = false;
             partieEnCours.NbrTour++;
@@ -230,11 +247,13 @@ namespace Tic_Tac_Toe_Projet1
             {
                 Case9.Content = "O";
                 partieEnCours.TourjoueurA = true;
+                Tour.Text = J1.Text.ToString();
             }
             else
             {
                 Case9.Content = "X";
                 partieEnCours.TourjoueurA = false;
+                Tour.Text = J2.Text.ToString();
             }
             Case9.IsEnabled = false;
             partieEnCours.NbrTour++;

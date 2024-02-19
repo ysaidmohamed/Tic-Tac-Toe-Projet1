@@ -29,7 +29,7 @@
         </GroupBox>
         <GroupBox  Grid.Row="4" Grid.Column="0" Margin="10,10,-173,-105" Padding="10">
             <StackPanel Margin="2,2,3,-17">
-                <TextBlock Background="LawnGreen">Tour de joueur</TextBlock>
+                <TextBlock Background="LawnGreen">Tour du joueur</TextBlock>
                 <TextBlock Name="Tour"></TextBlock>
                 <TextBlock Background="LawnGreen">Score</TextBlock>
                 <TextBlock>Joueur 1</TextBlock>
